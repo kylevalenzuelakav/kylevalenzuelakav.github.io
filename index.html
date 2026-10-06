@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kyle Valenzuela | Virtual Assistant & Administrative Support</title>
+<meta name="description" content="Kyle Valenzuela — Virtual Assistant, Administrative and Client Support professional.">
+<style>
+:root{
+  --bg:#f6f7f9; --card:#ffffff; --text:#17202a; --muted:#667085;
+  --line:#e5e7eb; --accent:#1f4b99; --accent2:#163b7a; --soft:#eef4ff;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+a{color:inherit}
+.container{width:min(1080px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav-inner{height:68px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;letter-spacing:.2px}
+.nav-links{display:flex;gap:24px;font-size:14px}
+.nav-links a{text-decoration:none;color:#475467}
+.nav-links a:hover{color:var(--accent)}
+.hero{padding:105px 0 90px;background:linear-gradient(135deg,#fff 0%,#f2f6ff 100%)}
+.hero-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:60px;align-items:center}
+.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:800;color:var(--accent);margin-bottom:15px}
+h1{font-size:clamp(42px,7vw,72px);line-height:1.02;margin:0 0 18px;letter-spacing:-2px}
+.hero h2{font-size:22px;font-weight:600;margin:0 0 20px;color:#344054}
+.lead{font-size:18px;color:#667085;max-width:680px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-block;padding:12px 19px;border-radius:9px;text-decoration:none;font-weight:700;font-size:14px;border:1px solid var(--line)}
+.btn.primary{background:var(--accent);color:white;border-color:var(--accent)}
+.btn.primary:hover{background:var(--accent2)}
+.btn.secondary{background:white}
+.profile-card{background:white;border:1px solid var(--line);border-radius:20px;padding:28px;box-shadow:0 18px 50px rgba(16,24,40,.08)}
+.profile-icon{width:88px;height:88px;border-radius:50%;background:var(--soft);display:grid;place-items:center;font-size:30px;font-weight:800;color:var(--accent);margin-bottom:20px}
+.profile-card strong{display:block;font-size:20px;margin-bottom:5px}
+.profile-card span{color:var(--muted);font-size:14px}
+section{padding:88px 0}
+.section-title{font-size:34px;letter-spacing:-.8px;margin:0 0 12px}
+.section-subtitle{color:var(--muted);max-width:700px;margin:0 0 35px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:55px}
+.about p{color:#475467}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:25px}
+.card h3{margin:0 0 10px;font-size:18px}
+.card p{margin:0;color:#667085;font-size:14px}
+.service-icon{font-size:24px;margin-bottom:12px}
+.samples{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.sample{background:white;border:1px solid var(--line);border-radius:15px;padding:27px}
+.sample h3{margin:0 0 9px}
+.sample p{color:#667085;font-size:14px}
+.tag{display:inline-block;background:var(--soft);color:var(--accent);font-size:12px;font-weight:700;padding:5px 9px;border-radius:999px;margin:3px 4px 0 0}
+.skills{display:flex;flex-wrap:wrap;gap:9px}
+.skill{background:white;border:1px solid var(--line);padding:9px 13px;border-radius:8px;font-size:14px;font-weight:600}
+.highlight{background:#17202a;color:white}
+.highlight .section-title{color:white}
+.highlight p{color:#cbd5e1}
+.contact-box{display:flex;justify-content:space-between;align-items:center;gap:30px}
+.contact-details{display:grid;gap:8px}
+.contact-details a{text-decoration:none}
+.contact-details a:hover{text-decoration:underline}
+footer{padding:28px 0;border-top:1px solid var(--line);color:#667085;font-size:13px}
+.note{font-size:12px;color:#98a2b3;margin-top:25px}
+@media(max-width:800px){
+ .hero-grid,.about{grid-template-columns:1fr}
+ .grid{grid-template-columns:1fr 1fr}
+ .samples{grid-template-columns:1fr}
+ .nav-links{display:none}
+ .hero{padding:75px 0}
+}
+@media(max-width:520px){.grid{grid-template-columns:1fr}section{padding:65px 0}.contact-box{display:block}.contact-box .btn{margin-top:20px}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="container nav-inner">
+    <div class="logo">Kyle Valenzuela</div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#samples">Work Samples</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Virtual Assistant • Administrative Support • Client Support</div>
+      <h1>Kyle<br>Valenzuela</h1>
+      <h2>Organized support that keeps work moving.</h2>
+      <p class="lead">I help businesses stay organized, responsive, and on schedule through reliable administrative support, client coordination, documentation, spreadsheet management, and task follow-up.</p>
+      <div class="buttons">
+        <a class="btn primary" href="#contact">Let's Work Together</a>
+        <a class="btn secondary" href="#samples">View Work Samples</a>
+      </div>
+    </div>
+    <div class="profile-card">
+      <div class="profile-icon">KV</div>
+      <strong>Virtual Assistant & Administrative Support</strong>
+      <span>Client coordination • Data & spreadsheets • Documentation • Task tracking</span>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="container">
+    <div class="about">
+      <div>
+        <div class="eyebrow">About Me</div>
+        <h2 class="section-title">Reliable, organized, and detail-oriented.</h2>
+      </div>
+      <div>
+        <p>I’m Kyle Valenzuela, an administrative and client support professional with experience in client coordination, account management, documentation, data tracking, follow-ups, and training support.</p>
+        <p>My experience has involved managing detailed records, monitoring payments and schedules, communicating with clients, following up on outstanding items, and keeping information organized and up to date.</p>
+        <p>I’m comfortable working with Microsoft Excel, Google Workspace, digital documents, spreadsheets, and online collaboration tools. I’m also quick to learn new systems and adapt to different workflows.</p>
+        <p>I take pride in being organized, reliable, detail-oriented, and proactive when managing multiple priorities and deadlines.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services" style="background:#fff">
+  <div class="container">
+    <div class="eyebrow">What I Can Help With</div>
+    <h2 class="section-title">Services</h2>
+    <p class="section-subtitle">Flexible support for day-to-day operations, client communication, records, and project coordination.</p>
+    <div class="grid">
+      <div class="card"><div class="service-icon">📋</div><h3>Administrative Support</h3><p>Data entry, record management, file organization, spreadsheet maintenance, reports, scheduling, and general administrative assistance.</p></div>
+      <div class="card"><div class="service-icon">👥</div><h3>Client & Customer Support</h3><p>Client communication, follow-ups, inquiries, record updates, request monitoring, professional email communication, and escalation.</p></div>
+      <div class="card"><div class="service-icon">📊</div><h3>Data & Spreadsheet Management</h3><p>Excel and Google Sheets, account tracking, payment tracking, data organization, deadline monitoring, and basic financial record keeping.</p></div>
+      <div class="card"><div class="service-icon">📌</div><h3>Task & Project Coordination</h3><p>Task tracking, deadline monitoring, follow-ups, project information, team coordination, and status updates.</p></div>
+      <div class="card"><div class="service-icon">📑</div><h3>Documentation & Training</h3><p>Presentation preparation, training materials, research, meeting notes, summaries, and clear documentation.</p></div>
+      <div class="card"><div class="service-icon">💻</div><h3>Remote Support</h3><p>Organized, dependable support for remote teams with clear communication and proactive follow-through.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="samples">
+  <div class="container">
+    <div class="eyebrow">Selected Work</div>
+    <h2 class="section-title">Work Samples</h2>
+    <p class="section-subtitle">Examples of the type of organization, tracking, communication, and documentation I can provide.</p>
+    <div class="samples">
+      <div class="sample"><h3>Client & Account Tracker</h3><p>An anonymized spreadsheet demonstrating how I organize client information, account details, balances, schedules, follow-ups, and priorities.</p><span class="tag">Excel</span><span class="tag">Data Organization</span><span class="tag">Account Tracking</span></div>
+      <div class="sample"><h3>Task & Follow-Up Tracker</h3><p>A structured tracker designed to monitor responsibilities, deadlines, priorities, approvals, and next actions.</p><span class="tag">Task Management</span><span class="tag">Deadlines</span><span class="tag">Follow-Up</span></div>
+      <div class="sample"><h3>Professional Communication</h3><p>Examples of professional internal and client-facing communication, including follow-ups, status updates, deadline reminders, and escalation messages.</p><span class="tag">Client Support</span><span class="tag">Email</span><span class="tag">Communication</span></div>
+      <div class="sample"><h3>Training & Presentation Materials</h3><p>Structured training and presentation materials developed from my aviation training experience.</p><span class="tag">Research</span><span class="tag">Documentation</span><span class="tag">Presentation</span></div>
+    </div>
+    <p class="note">Work samples are anonymized and generalized to protect confidential information. No actual client names or sensitive financial information are included.</p>
+  </div>
+</section>
+
+<section id="skills" style="background:#fff">
+  <div class="container">
+    <div class="eyebrow">Tools & Capabilities</div>
+    <h2 class="section-title">Skills & Tools</h2>
+    <p class="section-subtitle">A practical combination of administrative, communication, spreadsheet, and documentation skills.</p>
+    <div class="skills">
+      <span class="skill">Microsoft Excel</span><span class="skill">Google Sheets</span><span class="skill">Google Docs</span><span class="skill">Google Drive</span><span class="skill">Google Calendar</span><span class="skill">Microsoft Office</span><span class="skill">Data Entry</span><span class="skill">Record Management</span><span class="skill">Client Communication</span><span class="skill">Task Tracking</span><span class="skill">Deadline Management</span><span class="skill">Document Management</span><span class="skill">Research & Reporting</span><span class="skill">Follow-Up Management</span>
+    </div>
+  </div>
+</section>
+
+<section class="highlight" id="contact">
+  <div class="container">
+    <div class="contact-box">
+      <div>
+        <div class="eyebrow" style="color:#9dbdff">Get In Touch</div>
+        <h2 class="section-title">Let’s work together.</h2>
+        <p>I’m open to opportunities in Virtual Assistance, Administrative Support, Client Support, Project Coordination, and Entry-Level Bookkeeping/Financial Administration.</p>
+        <div class="contact-details">
+          <div>📧 <a href="mailto:Kylevalenzuelakav@gmail.com">Kylevalenzuelakav@gmail.com</a></div>
+          <div>📱 <a href="tel:+639988571168">+63 998 857 1168</a></div>
+          <div>📍 Talisay City, Negros Occidental, Philippines • Available for remote work</div>
+        </div>
+      </div>
+      <a class="btn primary" href="mailto:YOUR_EMAIL@example.com" style="background:white;color:#17202a;border-color:white">Email Me</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">© 2026 Kyle Valenzuela. All rights reserved.</div>
+</footer>
+
+</body>
+</html>
